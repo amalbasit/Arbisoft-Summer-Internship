@@ -65,7 +65,7 @@ try:
                 logging.info("Data inserted in table 'Books' successfully.")
 
             except Exception as e:
-                logging.error(f"[ERROR] Data insertion failed: {e}")
+                logging.error(f"Data insertion failed: {e}")
 
                 # Undo uncommited changes
                 conn.rollback()
@@ -79,7 +79,7 @@ try:
                 for data in book_values:
                     cur.execute(insert_script, data)
               
-                logging.info("[FIXED] Data inserted in table 'Books' successfully after fixing SQL syntax.")
+                logging.info("Data inserted in table 'Books' successfully after fixing SQL syntax.")
 
 except Exception as e:
     logging.error(f"An error occurred: {e}")

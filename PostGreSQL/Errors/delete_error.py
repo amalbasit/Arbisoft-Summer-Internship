@@ -32,7 +32,7 @@ try:
                 logging.info("Deletion was successful.")
 
             except Exception as e:
-                logging.error(f"[ERROR] Deletion unsuccessful: {e}")
+                logging.error(f"Deletion unsuccessful: {e}")
 
                 # Undo uncommited changes
                 conn.rollback()
@@ -61,7 +61,7 @@ try:
                     for row in rows:
                         print(row) 
 
-                logging.info("[FIXED] All books with price above 25 were deleted.")
+                logging.info("All books with price above 25 were deleted.")
 
 except Exception as e:
     logging.error(f"An error occurred: {e}")

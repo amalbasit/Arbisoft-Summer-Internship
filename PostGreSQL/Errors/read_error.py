@@ -32,7 +32,7 @@ try:
                 logging.info("Query ran successfully.")
 
             except Exception as e:
-                logging.error(f"[ERROR] Query failed: {e}")
+                logging.error(f"Query failed: {e}")
 
                 # Undo uncommited changes
                 conn.rollback()
@@ -48,7 +48,7 @@ try:
                 for data in cur.fetchall():
                     print(data)
 
-                logging.info("[FIXED] Query ran successfully after fixing SQL syntax.")
+                logging.info("Query ran successfully after fixing SQL syntax.")
 
 except Exception as e:
     logging.error(f"An error occurred: {e}")

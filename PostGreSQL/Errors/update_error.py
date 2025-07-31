@@ -33,7 +33,7 @@ try:
                 logging.info("Fantasy Books stock updated successfully.")
 
             except Exception as e:
-                logging.error(f"[ERROR] Incorrect increment syntax: {e}")
+                logging.error(f"Incorrect increment syntax: {e}")
 
                 # Undo uncommited changes
                 conn.rollback()
@@ -55,7 +55,7 @@ try:
                 )
                 for data in cur.fetchall():
                     print(data)
-                logging.info("[FIXED] Fantasy Books stock updated successfully after fixing SQL syntax.")
+                logging.info("Fantasy Books stock updated successfully after fixing SQL syntax.")
 
 except Exception as e:
     logging.error(f"An error occurred: {e}")

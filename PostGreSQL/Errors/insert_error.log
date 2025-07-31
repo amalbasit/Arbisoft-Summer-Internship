@@ -1,2 +1,0 @@
-2025-07-31 11:55:42,807 - ERROR - Line: 68 - [ERROR] Data insertion failed: not all arguments converted during string formatting
-2025-07-31 11:55:42,813 - INFO - Line: 82 - [FIXED] Data inserted in table 'Books' successfully after fixing SQL syntax.

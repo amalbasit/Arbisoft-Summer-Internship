@@ -39,7 +39,7 @@ try:
                 logging.info("Table 'Books' created successfully.")
 
             except Exception as e:
-                logging.error(f"[ERROR] Table creation failed: {e}")
+                logging.error(f"Table creation failed: {e}")
 
                 # Undo uncommited changes
                 conn.rollback()
@@ -58,7 +58,7 @@ try:
                     );
                     '''
                 )
-                logging.info("[FIXED] Table 'Books' created successfully after fixing SQL syntax.")
+                logging.info("Table 'Books' created successfully after fixing SQL syntax.")
 
 except Exception as e:
     logging.error(f"An error occurred: {e}")

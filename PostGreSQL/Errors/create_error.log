@@ -1,5 +1,5 @@
-2025-07-31 10:55:26,082 - ERROR - Line: 42 - [ERROR] Table creation failed: syntax error at or near "title"
+2025-07-31 11:55:07,122 - ERROR - Line: 42 - [ERROR] Table creation failed: syntax error at or near "title"
 LINE 4:                         title varchar(100),
                                 ^
 
-2025-07-31 10:55:26,086 - INFO - Line: 61 - [FIXED] Table 'Books' created successfully after fixing SQL syntax.
+2025-07-31 11:55:07,127 - INFO - Line: 61 - [FIXED] Table 'Books' created successfully after fixing SQL syntax.

@@ -1,5 +1,5 @@
-2025-07-31 11:00:52,814 - ERROR - Line: 35 - [ERROR] Deletion unsuccessful: syntax error at or near "TABLE"
+2025-07-31 11:56:38,928 - ERROR - Line: 35 - [ERROR] Deletion unsuccessful: syntax error at or near "TABLE"
 LINE 2:                         DELETE FROM Books TABLE
                                                   ^
 
-2025-07-31 11:00:52,816 - INFO - Line: 64 - [FIXED] All books with price above 25 were deleted.
+2025-07-31 11:56:38,929 - INFO - Line: 64 - [FIXED] All books with price above 25 were deleted.

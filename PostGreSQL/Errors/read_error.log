@@ -1,5 +1,5 @@
-2025-07-31 10:58:59,872 - ERROR - Line: 35 - [ERROR] Query failed: syntax error at or near "LIKE"
+2025-07-31 11:56:05,700 - ERROR - Line: 35 - [ERROR] Query failed: syntax error at or near "LIKE"
 LINE 4:                         WHERE title IS LIKE T% AND price < 2...
                                                ^
 
-2025-07-31 10:58:59,875 - INFO - Line: 51 - [FIXED] Query ran successfully after fixing SQL syntax.
+2025-07-31 11:56:05,702 - INFO - Line: 51 - [FIXED] Query ran successfully after fixing SQL syntax.

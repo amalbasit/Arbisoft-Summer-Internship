@@ -1,0 +1,41 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25980\viewh15420\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs48 \cf0 Debugging questions\
+\
+\
+1.\
+def build_multiples_table(n):\
+    table = [i * j for i in range(1, n + 1)]\
+    return table\
+\
+print(build_multiples_table(5))\
+\
+\
+2.  \
+import json\
+\
+def load_user(json_data):\
+    user = json.loads(json_data)\
+    return user["age"] > 18\
+\
+user_str = "\{'name': 'Omar', 'age': 20\}"\
+print(load_user(user_str))\
+\
+\
+3. \
+def sort_by_length(words):\
+    return words.sort(key=lambda word: len(word))\
+\
+words = ["apple", "kiwi", "banana", "fig"]\
+sorted_words = sort_by_length(words)\
+print(sorted_words)\
+\
+\
+\
+\
+}

@@ -1,0 +1,5 @@
+2025-07-24 14:29:55,815 - root - logging_q3.py - ERROR - Line: 20 - Enter an integer.
+Traceback (most recent call last):
+  File "/Users/amal.basit/Desktop/Internship/Logging/logging_q3.py", line 16, in <module>
+    num = int(input('Enter a number: '))
+ValueError: invalid literal for int() with base 10: '4ed'

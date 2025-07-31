@@ -1,0 +1,8 @@
+EmpID,Name,Age,Gender,Department,Salary,JoinDate,Location
+101,Alice,25.0,F,Sales,55000.0,2019-04-01,New York
+102,Bob,38.0,M,IT,75000.0,2017-08-15,San Francisco
+103,Charlie,,M,HR,,2020-01-01,Chicago
+104,David,29.0,M,Marketing,48000.0,2018-05-10,Los Angeles
+105,Eva,45.0,F,IT,82000.0,2015-09-01,San Francisco
+106,Frank,31.0,M,Sales,62000.0,2016-11-23,New York
+107,Grace,,F,HR,,2019-03-15,Chicago

@@ -1,0 +1,5 @@
+2025-07-31 10:59:36,640 - ERROR - Line: 36 - [ERROR] Incorrect increment syntax: syntax error at or near "+="
+LINE 3:                         SET stock += 100
+                                          ^
+
+2025-07-31 10:59:36,643 - INFO - Line: 58 - [FIXED] Fantasy Books stock updated successfully after fixing SQL syntax.

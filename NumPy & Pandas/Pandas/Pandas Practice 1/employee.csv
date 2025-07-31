@@ -1,0 +1,6 @@
+EmpID,Name,Age,Salary,JobTitle,Department
+101,Alice,25,50000.0,Engineer,IT
+102,Bob,30,60000.0,Manager,HR
+103,Charlie,35,,Engineer,IT
+104,Diana,40,80000.0,Director,Admin
+105,Ethan,28,55000.0,Engineer,IT

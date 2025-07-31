@@ -1,0 +1,5 @@
+2025-07-24 14:26:44,111 - root - logging_q1.py - DEBUG - Line: 26 - This is a debug message
+2025-07-24 14:26:44,111 - root - logging_q1.py - INFO - Line: 27 - Starting program
+2025-07-24 14:26:44,111 - root - logging_q1.py - WARNING - Line: 28 - Low disk space
+2025-07-24 14:26:44,111 - root - logging_q1.py - ERROR - Line: 29 - File not found
+2025-07-24 14:26:44,111 - root - logging_q1.py - CRITICAL - Line: 30 - System crash imminent

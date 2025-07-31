@@ -13,6 +13,7 @@ It contains folders organized by **topic**, with notes, practice code, and exerc
 - Pandas & NumPy  
 - Logging & Error Handling  
 - Real-life use cases and projects
+- PostGreSQL
 
 ---
 

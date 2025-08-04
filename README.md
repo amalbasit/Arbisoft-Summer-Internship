@@ -13,6 +13,7 @@ It contains folders organized by **topic**, with notes, practice code, and exerc
 - Pandas & NumPy  
 - Logging & Error Handling  
 - PostGreSQL
+- FastAPI
 
 ---
 

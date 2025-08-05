@@ -53,7 +53,7 @@ def get_book(book_id: int):
         FROM books
         WHERE id = %s
     """
-
+    
     result = get_book_by_query(get_query, (book_id,))
 
     if result:

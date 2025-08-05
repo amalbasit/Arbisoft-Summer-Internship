@@ -37,8 +37,6 @@ def add_book(book: Book):
 
 @app.get("/books/{book_id}")
 def get_book(book_id: int):
-    # conn = get_connection()
-    # cursor = conn.cursor()
 
     get_query = """
         SELECT *
@@ -46,12 +44,7 @@ def get_book(book_id: int):
         WHERE id = %s
     """
 
-    # cursor.execute(get_query, (book_id,))
-
     result = get_book_by_query(get_query, (book_id,))
-
-    # cursor.close()
-    # conn.close()
 
     if result:
         return {
@@ -67,8 +60,6 @@ def get_book(book_id: int):
 
 @app.get('/books/year/{year}')
 def get_book_year(year: int):
-    # conn = get_connection()
-    # cur = conn.cursor()
 
     get_query = """
         SELECT *
@@ -76,9 +67,6 @@ def get_book_year(year: int):
         WHERE year = %s
     """
 
-    # cur.execute(get_query, (year,))
-
-    # result = cur.fetchone()
     result = get_book_by_query(get_query, (year,))
 
     if result: 

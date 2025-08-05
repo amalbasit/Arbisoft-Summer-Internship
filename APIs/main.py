@@ -15,6 +15,16 @@ def get_book_by_query(query, params_tuple):
         cursor.close()
         conn.close()
 
+def format_book_row(result):
+    return {
+        "id": result[0],
+        "title": result[1],
+        "author": result[2],
+        "year": result[3],
+        "price": float(result[4])
+    }
+
+
 
 @app.post("/books/") # decorator with path parameter (placeholder)
 def add_book(book: Book):
@@ -47,13 +57,7 @@ def get_book(book_id: int):
     result = get_book_by_query(get_query, (book_id,))
 
     if result:
-        return {
-            "id": result[0],
-            "title": result[1],
-            "author": result[2],
-            "year": result[3],
-            "price": float(result[4])
-        }
+        return format_book_row(result)
     else:
         raise HTTPException(status_code=404, detail="Book not found")
     
@@ -69,13 +73,7 @@ def get_book_year(year: int):
 
     result = get_book_by_query(get_query, (year,))
 
-    if result: 
-        return {
-            "id": result[0],
-            "title": result[1],
-            "author": result[2],
-            "year": result[3],
-            "price": float(result[4])
-        }
+    if result:
+        return format_book_row(result)
     else:
         raise HTTPException(status_code=404, detail="Book not found")

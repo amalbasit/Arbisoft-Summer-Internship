@@ -12,9 +12,3 @@ def get_connection():
         host=os.getenv("DB_HOST"),
         port=os.getenv("DB_PORT")
     )
-
-# # Example usage:
-# if __name__ == "__main__":
-#     conn = get_connection()
-#     print("Connected successfully!")
-#     conn.close()

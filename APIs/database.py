@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 import psycopg2
 
-# Load variables from .env file
 load_dotenv()
 
 def get_connection():
@@ -14,8 +13,8 @@ def get_connection():
         port=os.getenv("DB_PORT")
     )
 
-# Example usage:
-if __name__ == "__main__":
-    conn = get_connection()
-    print("Connected successfully!")
-    conn.close()
+# # Example usage:
+# if __name__ == "__main__":
+#     conn = get_connection()
+#     print("Connected successfully!")
+#     conn.close()

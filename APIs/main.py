@@ -24,8 +24,6 @@ def format_book_row(result):
         "price": float(result[4])
     }
 
-
-
 @app.post("/books/") # decorator with path parameter (placeholder)
 def add_book(book: Book):
     conn = get_connection()
@@ -53,7 +51,7 @@ def get_book(book_id: int):
         FROM books
         WHERE id = %s
     """
-    
+
     result = get_book_by_query(get_query, (book_id,))
 
     if result:

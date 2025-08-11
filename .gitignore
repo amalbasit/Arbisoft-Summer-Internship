@@ -5,3 +5,5 @@ __pycache__
 ./venv
 .pyc
 .env
+.data
+myenv311

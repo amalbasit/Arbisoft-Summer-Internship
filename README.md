@@ -14,6 +14,9 @@ It contains folders organized by **topic**, with notes, practice code, and exerc
 - Logging & Error Handling  
 - PostGreSQL
 - FastAPI
+- Scikit-Learn Library
+- Object Classification (CNN)
+- Object Detection (YOLOv8)
 
 ---
 

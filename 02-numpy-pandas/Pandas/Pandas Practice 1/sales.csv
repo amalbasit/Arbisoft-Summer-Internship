@@ -1,0 +1,6 @@
+InvoiceID,Region,Amount,Customer
+A001,North,250,John
+A002,East,450,Anna
+A003,South,300,Kyle
+A004,West,500,Sara
+A005,East,450,Emma

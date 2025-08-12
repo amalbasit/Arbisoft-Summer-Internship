@@ -1,0 +1,51 @@
+OrderID,CustomerName,City,Amount,Date
+1001,Tyler,New York,692.19,2023-07-29
+1002,Lisa,San Antonio,811.28,2023-07-09
+1003,Matthew,New York,231.19,2023-07-30
+1004,Brian,San Jose,440.13,2023-07-17
+1005,Cassandra,Chicago,712.08,2023-07-04
+1006,Jessica,San Jose,353.25,2023-07-22
+1007,Ricky,Los Angeles,703.35,2023-07-21
+1008,Jill,Los Angeles,292.4,2023-07-11
+1009,Melinda,San Diego,436.27,2023-07-08
+1010,Juan,Los Angeles,802.53,2023-07-18
+1011,Amber,Philadelphia,206.32,2023-07-04
+1012,Ashley,Philadelphia,608.94,2023-07-27
+1013,Michael,San Jose,54.78,2023-07-13
+1014,Kim,Philadelphia,200.63,2023-07-29
+1015,Jeffrey,Chicago,307.09,2023-07-08
+1016,Jesus,Chicago,361.48,2023-07-22
+1017,Christine,Los Angeles,533.2,2023-07-11
+1018,Stephen,Phoenix,474.64,2023-07-30
+1019,Jasmine,Houston,901.69,2023-07-30
+1020,Leslie,Chicago,626.16,2023-07-13
+1021,Natalie,Phoenix,172.84,2023-07-30
+1022,James,New York,979.95,2023-07-15
+1023,Jason,San Diego,66.72,2023-07-20
+1024,Blake,Philadelphia,823.9,2023-07-15
+1025,Andrea,Phoenix,694.86,2023-07-03
+1026,Tamara,New York,860.72,2023-07-12
+1027,Matthew,Houston,643.17,2023-07-29
+1028,Cameron,Philadelphia,179.38,2023-07-15
+1029,Sarah,San Diego,182.21,2023-07-24
+1030,Luis,San Jose,957.54,2023-07-01
+1031,Robert,New York,374.89,2023-07-19
+1032,Timothy,Phoenix,881.91,2023-07-04
+1033,Chelsea,San Antonio,158.41,2023-07-05
+1034,Tim,San Antonio,318.4,2023-07-15
+1035,Thomas,Dallas,429.68,2023-07-23
+1036,Dylan,Dallas,495.87,2023-07-06
+1037,Amy,Phoenix,879.65,2023-07-11
+1038,Amy,San Diego,241.16,2023-07-21
+1039,Seth,Dallas,794.48,2023-07-20
+1040,Laura,Los Angeles,166.65,2023-07-08
+1041,Laura,San Antonio,237.08,2023-07-19
+1042,David,Dallas,116.56,2023-07-21
+1043,Tamara,New York,209.4,2023-07-24
+1044,Daniel,Dallas,663.03,2023-07-03
+1045,Steven,San Diego,379.11,2023-07-18
+1046,Kevin,San Antonio,377.73,2023-07-08
+1047,Amanda,Chicago,934.77,2023-07-28
+1048,Tina,San Jose,574.97,2023-07-06
+1049,Darrell,New York,361.32,2023-07-28
+1050,Olivia,Dallas,587.91,2023-07-09

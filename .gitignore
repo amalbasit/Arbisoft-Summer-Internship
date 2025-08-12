@@ -7,3 +7,4 @@ __pycache__
 .env
 data
 myenv311
+yolov8n.pt
